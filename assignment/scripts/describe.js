@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We make a variable called name set it to Dane a string
+// Checks if name is equal to Mary then displays in console
+// False, so it displays the else 'How do you do?'
 //
 
 //CODE
@@ -45,14 +45,14 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Undefined variable secret
+// code set to number 123
+// secret = super and code = 246, then run second if
+// console log secret = super as second if was false
 
 //CODE
 /*
-let secret;
+let secret; Undefined variable, error if no let secret
 
 let code = 123;
 
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// isStudent = true, age = 34, zip = 55407
+// first if is false, move to second and check
+// both are false for the || so move to third
+// Third is true, console.log displays Welcome to Prime, fourth does not run
 
 //CODE
 /*
@@ -130,6 +130,7 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - change the color for each, and declare colorTwo as purple in if
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -143,6 +144,7 @@ if (mix === true) {
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
+// FIX - change || to &&
 /*
 let temp = 40;
 const time = 4;
@@ -156,6 +158,7 @@ if (temp > 39 || time >= 4) {
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
 
+// FIX - age >= minAge
 /*
 let age = 21;
 const minAge = 21;
@@ -166,4 +169,3 @@ if(minAge <= age) {
   console.log('enter');
 }
 */
-
